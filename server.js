@@ -14,4 +14,4 @@ app.listen(config.port);
 exports = module.exports = app;
 
 // Logging initialization
-logger.info('info', 'Right CRM application started on port ' + config.port);
+logger.info('info', 'AirBNB application started on port ' + config.port);
