@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AirBNB</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Fav ICON -->
+  <link rel="icon" href="/assets/img/favicon.png" type="image/x-icon">
+  <!-- Bootstrap 3.3.7 -->
+  <link href="https://fonts.googleapis.com/css?family=Lato|Roboto:700" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="/assets/plugin/Ionicons/css/ionicons.min.css">
+  <!-- Datatables -->
+  <link rel="stylesheet" href="/assets/plugin/datatables.net-bs/css/dataTables.bootstrap.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="/assets/plugin/iCheck/square/blue.css">
+  <!-- Theme style -->
+
+  <link rel="stylesheet" href="/assets/css/angular-dropdowns.min.css">
+  <link rel="stylesheet" href="/assets/css/toastr.min.css">
+  <!-- Right CRM Skins. Choose a skin from the css/skins
+     folder instead of downloading all of them to reduce the load. -->
+  <link rel="stylesheet" href="/assets/css/skins/skin-right.css">
+  <!-- <link rel="stylesheet" type="text/css" href="node_modules/angular-ui-grid/ui-grid.min.css"> -->
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini" ng-app="AirBNB">
+  <div class="wrapper">
+
+    <div ng-view>
+
+
+
+    </div>
+  </div>
+    <!-- <footer class="main-footer">
+    <div class="pull-right hidden-xs">
+      <b>Rightcrm.pk</b>
+    <strong>2017 &copy;</strong> All rights Reserved.
+  </footer> -->
+    <!-- ./wrapper -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <!-- Bootstrap 3.3.7 -->
+    <script src="/assets/js/Custom.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <!-- DataTables -->
+    <script src="/angular/angular.min.js"></script>
+    <script src="/angular/angular-route.min.js"></script>
+    <script src="/angular/angular-animate.min.js"></script>
+    <script src="/angular/angular-sanitize.min.js"></script>
+    <script src="/angular/angular-cookies.min.js"></script>
+    <script src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.5.0.js"></script>
+
+    <script src="/app.js"></script>
+    <script src="/controllers/client.controller.main.js"></script>
+    <script src="/services/client.service.user.js"></script>
+    <script src="/angular/toastr.min.js"></script>
+</body>
+<script>
+  window.AirBNB_URL = '<%= AirBNB_URL %>';
+</script>
+
+</html>

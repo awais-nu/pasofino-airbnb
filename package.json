@@ -1,0 +1,41 @@
+{
+  "name": "rightcrm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Naeem",
+  "license": "ISC",
+  "dependencies": {
+    "angular-cookies": "^1.6.7",
+    "angular-sweetalert-2": "^1.0.1",
+    "angular-ui-grid": "^4.2.2",
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "buffer": "^5.0.8",
+    "chalk": "^2.3.1",
+    "checklist-model": "^0.11.0",
+    "consolidate": "^0.15.0",
+    "dotenv": "^5.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "glob": "^7.1.2",
+    "jade": "^1.11.0",
+    "lodash": "^4.17.4",
+    "mongodb": "^3.0.4",
+    "mongoose": "^5.0.10",
+    "morgan": "^1.9.0",
+    "ngstorage": "^0.3.11",
+    "nodemon": "^1.12.5",
+    "path": "^0.12.7",
+    "request": "^2.83.0",
+    "sweetalert": "^2.1.0",
+    "sweetalert2": "^7.3.5",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  }
+}
